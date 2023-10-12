@@ -1,7 +1,7 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let bnbPackageVersion: Version = "1.8.0-4"
+let bnbPackageVersion: Version = "1.8.0-5"
 
 let package = Package(
     name: "BNBSdkApi",
