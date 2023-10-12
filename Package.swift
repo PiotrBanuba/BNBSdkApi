@@ -1,7 +1,7 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let bnbPackageVersion: Version = "1.8.0-7"
+let bnbPackageVersion: Version = "1.8.0-8"
 
 let package = Package(
     name: "BNBSdkApi",
@@ -12,7 +12,7 @@ let package = Package(
         .library(
             name: "BNBSdkApi",
             targets: [
-                "BNBSdkApiBNBSdkApiTarget",
+                "BNBSdkApi",
                 "BNBSdkApiBNBSdkCoreTarget"
             ]
         ),
