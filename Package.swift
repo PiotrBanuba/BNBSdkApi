@@ -13,7 +13,7 @@ let package = Package(
             name: "BNBSdkApi",
             targets: [
                 "BNBSdkApi",
-                "BNBSdkApiBNBSdkCoreTarget"
+                "BNBSdkApiBNBSdkCore"
             ]
         ),
     ],
@@ -30,7 +30,7 @@ let package = Package(
             checksum: "c0004f7c8c997031ca092bc15aa15ecb00f71c541224cf0d1c8fbe235e3b7b92"
         ),
         .target(
-            name: "BNBSdkApiBNBSdkCoreTarget",
+            name: "BNBSdkApiBNBSdkCore",
             dependencies: [
                 .product(
                     name: "BNBSdkCore",
