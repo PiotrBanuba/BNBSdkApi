@@ -1,7 +1,7 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let bnbPackageVersion: Version = "1.8.0-16"
+let bnbPackageVersion: Version = "1.8.0-17"
 
 let package = Package(
     name: "BNBSdkApi",
@@ -11,6 +11,7 @@ let package = Package(
     products: [
         .library(
             name: "BNBSdkApi",
+            type: .dynamic,
             targets: [
                 "BNBSdkApi",
                 "BNBSdkApi_BNBSdkCore"
